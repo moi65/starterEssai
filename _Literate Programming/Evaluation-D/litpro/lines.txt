@@ -1,0 +1,18 @@
+error TypeError: fs.readfile is not a function
+
+event ["need document:first.md","need document"]
+handler ``
+data 
+context {}
+scopes {}
+stack TypeError: fs.readfile is not a function
+    at Object.<anonymous> (C:\Users\allam\Documents\WorkHiver2017\_Literate Programming\Evaluation-D\litpro\index.js:9:8)
+    at Handler.me [as execute] (C:\Users\allam\Documents\WorkHiver2017\_Literate Programming\Evaluation-D\litpro\node_modules\event-when\index.js:206:30)
+    at EvW.looper (C:\Users\allam\Documents\WorkHiver2017\_Literate Programming\Evaluation-D\litpro\node_modules\event-when\index.js:1129:23)
+    at EvW._emit.EvW.emit (C:\Users\allam\Documents\WorkHiver2017\_Literate Programming\Evaluation-D\litpro\node_modules\event-when\index.js:575:17)
+    at Object.<anonymous> (C:\Users\allam\Documents\WorkHiver2017\_Literate Programming\Evaluation-D\litpro\index.js:23:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
